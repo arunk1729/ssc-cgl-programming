@@ -1,20 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
+import { CommonModule } from './common/common.module';
 import { AppComponent } from './app.component';
-import { ToolbarComponent } from './common/toolbar/toolbar.component';
 import { SscModule } from './ssc/ssc.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ToolbarComponent
-    
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CommonModule,
     SscModule
   ],
   providers: [],
