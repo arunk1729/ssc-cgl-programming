@@ -4,18 +4,28 @@ import { AppRoutingModule } from './app-routing.module';
 import { CommonModule } from './common/common.module';
 import { AppComponent } from './app.component';
 import { SscModule } from './ssc/ssc.module';
+import { HomeComponent } from './home/home.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
     CommonModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     SscModule
   ],
-  providers: [],
+  exports: [
+    CommonModule
+  ],
+  providers: [
+    
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

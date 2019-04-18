@@ -1,12 +1,13 @@
 import { UtilityService } from './../../common/services/utility.service';
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ratio-proportions',
-  templateUrl: './ratio-proportions.component.html',
-  styleUrls: ['./ratio-proportions.component.scss']
+  selector: 'app-ssc-main',
+  templateUrl: './ssc-main.component.html',
+  styleUrls: ['./ssc-main.component.scss']
 })
-export class RatioProportionsComponent implements OnInit {
+export class SscMainComponent implements OnInit {
 
   constructor( public util: UtilityService ) { }
 

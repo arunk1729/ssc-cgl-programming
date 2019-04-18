@@ -1,5 +1,43 @@
-<div id="wrapper">
-  <div id="toolbar-wrapper">
-    Toolbar
+<div class="tool-wrapper">
+  <div class="logo" (click)="util.gotoRoute('home')">Math Games</div>
+  <div class="calc-wrapper">
+    <div class="actns">
+      <button class="adj-lvl" (click)="decreaseAddLvl()">&larr;</button>
+      <label style="color:blue;margin-top:8px;font-size:13px;">&nbsp;{{ levels[addLvl] }}&nbsp;</label>
+      <button class="adj-lvl" (click)="increaseAddLvl()">&rarr;</button>
+      <div class="lbls">{{add1}} + {{add2}} = 
+        <input class="tool-inp" type="number" [(ngModel)]="addSol" (ngModelChange)="checkSum()">
+      </div>
+    </div>
+    <div class="actns">
+      <button class="adj-lvl" (click)="decreaseAddLvl()">&larr;</button>
+      <label style="color:blue;margin-top:8px;font-size:13px;">&nbsp;{{ levels[addLvl] }}&nbsp;</label>
+      <button class="adj-lvl" (click)="increaseAddLvl()">&rarr;</button>
+      <div class="lbls">{{sub1}} - {{sub2}} = 
+        <input class="tool-inp" type="number" [(ngModel)]="subSol" (ngModelChange)="checkSub()">
+      </div>
+    </div>
+    <div class="actns">
+      <button class="adj-lvl" (click)="decreaseAddLvl()">&larr;</button>
+      <label style="color:blue;margin-top:8px;font-size:13px;">&nbsp;{{ levels[addLvl] }}&nbsp;</label>
+      <button class="adj-lvl" (click)="increaseAddLvl()">&rarr;</button>
+      <div class="lbls">{{mult1}} * {{mult2}} = 
+        <input class="tool-inp" type="number" [(ngModel)]="multSol" (ngModelChange)="checkMult()">
+      </div>
+    </div>
+    <div class="actns">
+      <button class="adj-lvl" (click)="decreaseAddLvl()">&larr;</button>
+      <label style="color:blue;margin-top:8px;font-size:13px;">&nbsp;{{ levels[addLvl] }}&nbsp;</label>
+      <button class="adj-lvl" (click)="increaseAddLvl()">&rarr;</button>
+      <div class="lbls">{{div1}} / {{div2}} = 
+        <input class="tool-inp" type="number" [(ngModel)]="divSol" (ngModelChange)="checkDiv()">
+      </div>
+    </div>
   </div>
+  <ul class="tool-topic">
+    <li><a (click)="util.gotoRoute('ssc')">Maths</a></li>
+    <li><a routerLink="ssc">English</a></li>
+    <li><a>GK</a></li>
+    <li><a>Reasoning</a></li>
+  </ul>
 </div>
