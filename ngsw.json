@@ -1,0 +1,75 @@
+{
+  "configVersion": 1,
+  "index": "https://arunk1729.github.io/math-games/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://arunk1729.github.io/math-games/favicon.ico",
+        "https://arunk1729.github.io/math-games/index.html",
+        "https://arunk1729.github.io/math-games/main.78a67f0a7bde81923bdd.js",
+        "https://arunk1729.github.io/math-games/polyfills.700de6a72198aeb48ea2.js",
+        "https://arunk1729.github.io/math-games/runtime.a5dd35324ddfd942bef1.js",
+        "https://arunk1729.github.io/math-games/scripts.ab33162feb23f1de4a98.js",
+        "https://arunk1729.github.io/math-games/styles.792c186a92d5bb9d482b.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://arunk1729.github.io/math-games/assets/icons/icon-128x128.png",
+        "https://arunk1729.github.io/math-games/assets/icons/icon-144x144.png",
+        "https://arunk1729.github.io/math-games/assets/icons/icon-152x152.png",
+        "https://arunk1729.github.io/math-games/assets/icons/icon-192x192.png",
+        "https://arunk1729.github.io/math-games/assets/icons/icon-384x384.png",
+        "https://arunk1729.github.io/math-games/assets/icons/icon-512x512.png",
+        "https://arunk1729.github.io/math-games/assets/icons/icon-72x72.png",
+        "https://arunk1729.github.io/math-games/assets/icons/icon-96x96.png",
+        "https://arunk1729.github.io/math-games/assets/terminator.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://arunk1729.github.io/math-games/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://arunk1729.github.io/math-games/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://arunk1729.github.io/math-games/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://arunk1729.github.io/math-games/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://arunk1729.github.io/math-games/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://arunk1729.github.io/math-games/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://arunk1729.github.io/math-games/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://arunk1729.github.io/math-games/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://arunk1729.github.io/math-games/assets/terminator.jpg": "b19ed507a49edfbd502725182d5de60f1ad0e736",
+    "https://arunk1729.github.io/math-games/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://arunk1729.github.io/math-games/index.html": "de9491607c594d07644a658271be452fac82fca3",
+    "https://arunk1729.github.io/math-games/main.78a67f0a7bde81923bdd.js": "ad9d525b1828c356ac5b016405249bb3bc01df8f",
+    "https://arunk1729.github.io/math-games/polyfills.700de6a72198aeb48ea2.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "https://arunk1729.github.io/math-games/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://arunk1729.github.io/math-games/scripts.ab33162feb23f1de4a98.js": "105d6eb870d637348e7c2882dcfb37fb648e0835",
+    "https://arunk1729.github.io/math-games/styles.792c186a92d5bb9d482b.css": "4ccbe566dc09b7d6f76591878150383b1903b521"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
